@@ -30,6 +30,25 @@ function structure_child_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'structure_child_enqueue_styles', 20 );
 
 /**
+ * Drop the head links that duplicate every page under a second URL.
+ *
+ * WordPress advertises each page twice: the pretty permalink and a `?p=ID`
+ * shortlink. A crawler follows both, sees identical content, and can end up
+ * rewriting the navigation to point at the shortlink copy — which is how every
+ * menu item in the static preview ended up as a dead `index.html@p=47` link.
+ * They serve no purpose on this site, and removing them also tidies the head.
+ */
+function structure_child_tidy_head() {
+	remove_action( 'wp_head', 'wp_shortlink_wp_head', 10 );
+	remove_action( 'template_redirect', 'wp_shortlink_header', 11 );
+	remove_action( 'wp_head', 'wp_oembed_add_discovery_links' );
+	remove_action( 'wp_head', 'rsd_link' );
+	remove_action( 'wp_head', 'feed_links_extra', 3 );
+	remove_action( 'wp_head', 'rest_output_link_wp_head', 10 );
+}
+add_action( 'init', 'structure_child_tidy_head' );
+
+/**
  * Elementor ships the styling for angled section dividers in a conditional
  * stylesheet ('e-shapes') that it only enqueues from the asset list it writes
  * while saving a document in the editor. This build's layouts are generated, so
