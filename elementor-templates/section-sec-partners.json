@@ -1,0 +1,746 @@
+{
+    "version": "0.4",
+    "title": "Section &#8211; Logo grid",
+    "type": "container",
+    "content": [
+        {
+            "id": "ug0018e",
+            "elType": "container",
+            "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1200,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "110",
+                    "right": "20",
+                    "bottom": "110",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "77",
+                    "right": "24",
+                    "bottom": "77",
+                    "left": "24",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "55",
+                    "right": "20",
+                    "bottom": "55",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "flex_gap": {
+                    "unit": "px",
+                    "size": 36,
+                    "column": "36",
+                    "row": "36",
+                    "isLinked": true
+                },
+                "background_background": "classic",
+                "__globals__": {
+                    "background_color": "globals/colors?id=background"
+                }
+            },
+            "elements": [
+                {
+                    "id": "ug0018a",
+                    "elType": "widget",
+                    "widgetType": "heading",
+                    "settings": {
+                        "title": "They trust us",
+                        "header_size": "h2",
+                        "__globals__": {
+                            "title_color": "globals/colors?id=secondary"
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                            "unit": "px",
+                            "size": 44,
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 28,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "typography_text_transform": "uppercase"
+                    },
+                    "elements": []
+                },
+                {
+                    "id": "ug0018c",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "width": {
+                            "unit": "%",
+                            "size": 47.41,
+                            "sizes": []
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "ug0018b",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>",
+                                "__globals__": {
+                                    "text_color": "globals/colors?id=text"
+                                }
+                            },
+                            "elements": []
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "ug0018d",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_gap": {
+                            "unit": "px",
+                            "size": 20,
+                            "column": "20",
+                            "row": "20",
+                            "isLinked": true
+                        },
+                        "flex_direction_mobile": "column",
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "flex_align_items": "stretch",
+                        "flex_wrap": "wrap"
+                    },
+                    "elements": [
+                        {
+                            "id": "ug0017e",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "18",
+                                    "right": "18",
+                                    "bottom": "18",
+                                    "left": "18",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 15.23,
+                                    "sizes": []
+                                },
+                                "width_tablet": {
+                                    "unit": "%",
+                                    "size": 31.58,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "background_background": "classic",
+                                "background_color": "#FFFFFF"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ug00172",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "http://localhost:8407/wp-content/uploads/2026/09/partner-01.png",
+                                            "id": 29,
+                                            "size": ""
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "ug0017f",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "18",
+                                    "right": "18",
+                                    "bottom": "18",
+                                    "left": "18",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 15.23,
+                                    "sizes": []
+                                },
+                                "width_tablet": {
+                                    "unit": "%",
+                                    "size": 31.58,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "background_background": "classic",
+                                "background_color": "#FFFFFF"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ug00173",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "http://localhost:8407/wp-content/uploads/2026/09/partner-02.png",
+                                            "id": 30,
+                                            "size": ""
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "ug00180",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "18",
+                                    "right": "18",
+                                    "bottom": "18",
+                                    "left": "18",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 15.23,
+                                    "sizes": []
+                                },
+                                "width_tablet": {
+                                    "unit": "%",
+                                    "size": 31.58,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "background_background": "classic",
+                                "background_color": "#FFFFFF"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ug00174",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "http://localhost:8407/wp-content/uploads/2026/09/partner-03.png",
+                                            "id": 31,
+                                            "size": ""
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "ug00181",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "18",
+                                    "right": "18",
+                                    "bottom": "18",
+                                    "left": "18",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 15.23,
+                                    "sizes": []
+                                },
+                                "width_tablet": {
+                                    "unit": "%",
+                                    "size": 31.58,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "background_background": "classic",
+                                "background_color": "#FFFFFF"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ug00175",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "http://localhost:8407/wp-content/uploads/2026/09/partner-04.png",
+                                            "id": 32,
+                                            "size": ""
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "ug00182",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "18",
+                                    "right": "18",
+                                    "bottom": "18",
+                                    "left": "18",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 15.23,
+                                    "sizes": []
+                                },
+                                "width_tablet": {
+                                    "unit": "%",
+                                    "size": 31.58,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "background_background": "classic",
+                                "background_color": "#FFFFFF"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ug00176",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "http://localhost:8407/wp-content/uploads/2026/09/partner-05.png",
+                                            "id": 33,
+                                            "size": ""
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "ug00183",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "18",
+                                    "right": "18",
+                                    "bottom": "18",
+                                    "left": "18",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 15.23,
+                                    "sizes": []
+                                },
+                                "width_tablet": {
+                                    "unit": "%",
+                                    "size": 31.58,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "background_background": "classic",
+                                "background_color": "#FFFFFF"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ug00177",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "http://localhost:8407/wp-content/uploads/2026/09/partner-06.png",
+                                            "id": 34,
+                                            "size": ""
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "ug00184",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "18",
+                                    "right": "18",
+                                    "bottom": "18",
+                                    "left": "18",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 15.23,
+                                    "sizes": []
+                                },
+                                "width_tablet": {
+                                    "unit": "%",
+                                    "size": 31.58,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "background_background": "classic",
+                                "background_color": "#FFFFFF"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ug00178",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "http://localhost:8407/wp-content/uploads/2026/09/partner-07.png",
+                                            "id": 35,
+                                            "size": ""
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "ug00185",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "18",
+                                    "right": "18",
+                                    "bottom": "18",
+                                    "left": "18",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 15.23,
+                                    "sizes": []
+                                },
+                                "width_tablet": {
+                                    "unit": "%",
+                                    "size": 31.58,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "background_background": "classic",
+                                "background_color": "#FFFFFF"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ug00179",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "http://localhost:8407/wp-content/uploads/2026/09/partner-08.png",
+                                            "id": 36,
+                                            "size": ""
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "ug00186",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "18",
+                                    "right": "18",
+                                    "bottom": "18",
+                                    "left": "18",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 15.23,
+                                    "sizes": []
+                                },
+                                "width_tablet": {
+                                    "unit": "%",
+                                    "size": 31.58,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "background_background": "classic",
+                                "background_color": "#FFFFFF"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ug0017a",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "http://localhost:8407/wp-content/uploads/2026/09/partner-09.png",
+                                            "id": 37,
+                                            "size": ""
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "ug00187",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "18",
+                                    "right": "18",
+                                    "bottom": "18",
+                                    "left": "18",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 15.23,
+                                    "sizes": []
+                                },
+                                "width_tablet": {
+                                    "unit": "%",
+                                    "size": 31.58,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "background_background": "classic",
+                                "background_color": "#FFFFFF"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ug0017b",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "http://localhost:8407/wp-content/uploads/2026/09/partner-10.png",
+                                            "id": 38,
+                                            "size": ""
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "ug00188",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "18",
+                                    "right": "18",
+                                    "bottom": "18",
+                                    "left": "18",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 15.23,
+                                    "sizes": []
+                                },
+                                "width_tablet": {
+                                    "unit": "%",
+                                    "size": 31.58,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "background_background": "classic",
+                                "background_color": "#FFFFFF"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ug0017c",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "http://localhost:8407/wp-content/uploads/2026/09/partner-11.png",
+                                            "id": 39,
+                                            "size": ""
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        },
+                        {
+                            "id": "ug00189",
+                            "elType": "container",
+                            "settings": {
+                                "content_width": "full",
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "18",
+                                    "right": "18",
+                                    "bottom": "18",
+                                    "left": "18",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 15.23,
+                                    "sizes": []
+                                },
+                                "width_tablet": {
+                                    "unit": "%",
+                                    "size": 31.58,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "background_background": "classic",
+                                "background_color": "#FFFFFF"
+                            },
+                            "elements": [
+                                {
+                                    "id": "ug0017d",
+                                    "elType": "widget",
+                                    "widgetType": "image",
+                                    "settings": {
+                                        "image": {
+                                            "url": "http://localhost:8407/wp-content/uploads/2026/09/partner-12.png",
+                                            "id": 40,
+                                            "size": ""
+                                        },
+                                        "image_size": "full"
+                                    },
+                                    "elements": []
+                                }
+                            ],
+                            "isInner": true
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        }
+    ],
+    "page_settings": {}
+}
