@@ -73,15 +73,16 @@
                                 },
                                 "width_tablet": {
                                     "unit": "%",
-                                    "size": 30,
+                                    "size": 28,
                                     "sizes": []
                                 },
                                 "width_mobile": {
                                     "unit": "%",
-                                    "size": 100,
+                                    "size": 52,
                                     "sizes": []
                                 },
-                                "flex_justify_content": "center"
+                                "flex_justify_content": "center",
+                                "flex_align_items": "flex-start"
                             },
                             "elements": [
                                 {
@@ -137,7 +138,7 @@
                                 },
                                 "width_mobile": {
                                     "unit": "%",
-                                    "size": 100,
+                                    "size": 36,
                                     "sizes": []
                                 },
                                 "flex_justify_content": "center"
@@ -151,6 +152,7 @@
                                         "menu": "main-menu",
                                         "layout": "horizontal",
                                         "navmenu_align": "right",
+                                        "resp_align": "right",
                                         "align_items": "right",
                                         "padding_horizontal_menu_item": {
                                             "unit": "px",
@@ -211,7 +213,7 @@
                                 },
                                 "width_tablet": {
                                     "unit": "%",
-                                    "size": 26,
+                                    "size": 24,
                                     "sizes": []
                                 },
                                 "width_mobile": {
