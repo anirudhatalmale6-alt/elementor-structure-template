@@ -4,7 +4,7 @@
     "type": "container",
     "content": [
         {
-            "id": "ug0015e",
+            "id": "ug0019e",
             "elType": "container",
             "settings": {
                 "content_width": "boxed",
@@ -51,7 +51,7 @@
             },
             "elements": [
                 {
-                    "id": "ug0015d",
+                    "id": "ug0019d",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
@@ -73,11 +73,12 @@
                             "isLinked": false
                         },
                         "flex_align_items": "flex-start",
-                        "flex_wrap": "wrap"
+                        "flex_wrap": "wrap",
+                        "flex_justify_content": "center"
                     },
                     "elements": [
                         {
-                            "id": "ug00150",
+                            "id": "ug00190",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -114,7 +115,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug0014b",
+                                    "id": "ug0018b",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -128,7 +129,7 @@
                                     "elements": []
                                 },
                                 {
-                                    "id": "ug0014c",
+                                    "id": "ug0018c",
                                     "elType": "widget",
                                     "widgetType": "heading",
                                     "settings": {
@@ -149,18 +150,18 @@
                                     "elements": []
                                 },
                                 {
-                                    "id": "ug0014f",
+                                    "id": "ug0018f",
                                     "elType": "widget",
                                     "widgetType": "toggle",
                                     "settings": {
                                         "tabs": [
                                             {
-                                                "_id": "ug0014d",
+                                                "_id": "ug0018d",
                                                 "tab_title": "Description",
                                                 "tab_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>"
                                             },
                                             {
-                                                "_id": "ug0014e",
+                                                "_id": "ug0018e",
                                                 "tab_title": "Details",
                                                 "tab_content": "<p>Lorem ipsum: 00 &middot; Dolor sit: 00 &middot; Amet: 00</p>"
                                             }
@@ -213,7 +214,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00156",
+                            "id": "ug00196",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -250,7 +251,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00151",
+                                    "id": "ug00191",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -264,7 +265,7 @@
                                     "elements": []
                                 },
                                 {
-                                    "id": "ug00152",
+                                    "id": "ug00192",
                                     "elType": "widget",
                                     "widgetType": "heading",
                                     "settings": {
@@ -285,18 +286,18 @@
                                     "elements": []
                                 },
                                 {
-                                    "id": "ug00155",
+                                    "id": "ug00195",
                                     "elType": "widget",
                                     "widgetType": "toggle",
                                     "settings": {
                                         "tabs": [
                                             {
-                                                "_id": "ug00153",
+                                                "_id": "ug00193",
                                                 "tab_title": "Description",
                                                 "tab_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>"
                                             },
                                             {
-                                                "_id": "ug00154",
+                                                "_id": "ug00194",
                                                 "tab_title": "Details",
                                                 "tab_content": "<p>Lorem ipsum: 00 &middot; Dolor sit: 00 &middot; Amet: 00</p>"
                                             }
@@ -349,7 +350,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug0015c",
+                            "id": "ug0019c",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -386,7 +387,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00157",
+                                    "id": "ug00197",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -400,7 +401,7 @@
                                     "elements": []
                                 },
                                 {
-                                    "id": "ug00158",
+                                    "id": "ug00198",
                                     "elType": "widget",
                                     "widgetType": "heading",
                                     "settings": {
@@ -421,18 +422,18 @@
                                     "elements": []
                                 },
                                 {
-                                    "id": "ug0015b",
+                                    "id": "ug0019b",
                                     "elType": "widget",
                                     "widgetType": "toggle",
                                     "settings": {
                                         "tabs": [
                                             {
-                                                "_id": "ug00159",
+                                                "_id": "ug00199",
                                                 "tab_title": "Description",
                                                 "tab_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>"
                                             },
                                             {
-                                                "_id": "ug0015a",
+                                                "_id": "ug0019a",
                                                 "tab_title": "Details",
                                                 "tab_content": "<p>Lorem ipsum: 00 &middot; Dolor sit: 00 &middot; Amet: 00</p>"
                                             }

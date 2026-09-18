@@ -4,7 +4,7 @@
     "type": "container",
     "content": [
         {
-            "id": "ug00171",
+            "id": "ug001b1",
             "elType": "container",
             "settings": {
                 "content_width": "boxed",
@@ -51,7 +51,7 @@
             },
             "elements": [
                 {
-                    "id": "ug00170",
+                    "id": "ug001b0",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
@@ -76,7 +76,7 @@
                     },
                     "elements": [
                         {
-                            "id": "ug0016e",
+                            "id": "ug001ae",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -106,7 +106,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug0016a",
+                                    "id": "ug001aa",
                                     "elType": "widget",
                                     "widgetType": "heading",
                                     "settings": {
@@ -127,7 +127,7 @@
                                     "elements": []
                                 },
                                 {
-                                    "id": "ug0016b",
+                                    "id": "ug001ab",
                                     "elType": "widget",
                                     "widgetType": "text-editor",
                                     "settings": {
@@ -139,7 +139,7 @@
                                     "elements": []
                                 },
                                 {
-                                    "id": "ug0016c",
+                                    "id": "ug001ac",
                                     "elType": "widget",
                                     "widgetType": "button",
                                     "settings": {
@@ -207,7 +207,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug0016f",
+                            "id": "ug001af",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -237,7 +237,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug0016d",
+                                    "id": "ug001ad",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {

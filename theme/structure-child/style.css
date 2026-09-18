@@ -11,6 +11,45 @@ Version:      1.0.0
 Text Domain:  structure-child
 */
 
+/* --------------------------------------------------------------- typography */
+
+/*
+ * Bind the whole site to Elementor's Global Fonts.
+ *
+ * Defining "Primary" and "Text" under Site Settings > Global Fonts only emits
+ * CSS variables — nothing consumes them unless a widget explicitly references
+ * the global, and these layouts set their own sizes per heading, which cannot
+ * be combined with a global reference. Without these rules the font names are
+ * stored and shown in the panel while every heading silently falls back to the
+ * theme's system stack.
+ *
+ * Pointing the base elements at the variables means changing the two entries in
+ * Global Fonts restyles the entire site, which is the whole point of setting
+ * them globally.
+ */
+body,
+.elementor-widget-text-editor,
+.elementor-widget-icon-box .elementor-icon-box-description,
+.elementor-widget-icon-list,
+.elementor-widget-toggle .elementor-tab-content,
+.wpcf7 input,
+.wpcf7 textarea {
+	font-family: var(--e-global-typography-text-font-family), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.elementor-heading-title,
+.elementor-widget-icon-box .elementor-icon-box-title,
+.elementor-widget-counter .elementor-counter-number-wrapper,
+.elementor-widget-toggle .elementor-toggle-title,
+.elementor-button,
+.wpcf7 label,
+.wpcf7 input[type="submit"],
+.ug-newsletter button,
+.hfe-nav-menu a {
+	font-family: var(--e-global-typography-primary-font-family), system-ui, sans-serif;
+}
+
 /* ---------------------------------------------------------- language switch */
 
 .ug-lang {

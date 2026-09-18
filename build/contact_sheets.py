@@ -114,6 +114,17 @@ strip([("Play (main content)", "play-desktop-0.png"),
       per_row=3, thumb_w=560,
       caption="All eight pages use the same reusable sections and the same global colours.")
 
+# One screenshot per section, cropped to the section itself — scrolling the page
+# in fixed viewport steps straddles the boundaries and mislabels every case.
+strip([("1 item", "case-2.png"),
+       ("2 items", "case-3.png"),
+       ("4 items", "case-4.png"),
+       ("5 items", "case-5.png")],
+      "Self-arranging rows — no empty slots", "05-flexible-layout.jpg",
+      per_row=2, thumb_w=760,
+      caption="The same section with different numbers of items. Nothing is configured "
+              "per case; remove one and the rest re-centre.")
+
 strip([("Cards + stats", "home-mobile-3.png"),
        ("Contact form", "contact-mobile-1.png"),
        ("Footer", "home-mobile-6.png")],

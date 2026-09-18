@@ -4,7 +4,7 @@
     "type": "container",
     "content": [
         {
-            "id": "ug0018e",
+            "id": "ug001ce",
             "elType": "container",
             "settings": {
                 "content_width": "boxed",
@@ -51,7 +51,7 @@
             },
             "elements": [
                 {
-                    "id": "ug0018a",
+                    "id": "ug001ca",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -77,7 +77,7 @@
                     "elements": []
                 },
                 {
-                    "id": "ug0018c",
+                    "id": "ug001cc",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
@@ -107,7 +107,7 @@
                     },
                     "elements": [
                         {
-                            "id": "ug0018b",
+                            "id": "ug001cb",
                             "elType": "widget",
                             "widgetType": "text-editor",
                             "settings": {
@@ -122,7 +122,7 @@
                     "isInner": true
                 },
                 {
-                    "id": "ug0018d",
+                    "id": "ug001cd",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
@@ -144,11 +144,12 @@
                             "isLinked": false
                         },
                         "flex_align_items": "stretch",
-                        "flex_wrap": "wrap"
+                        "flex_wrap": "wrap",
+                        "flex_justify_content": "center"
                     },
                     "elements": [
                         {
-                            "id": "ug0017e",
+                            "id": "ug001be",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -180,7 +181,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00172",
+                                    "id": "ug001b2",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -197,7 +198,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug0017f",
+                            "id": "ug001bf",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -229,7 +230,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00173",
+                                    "id": "ug001b3",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -246,7 +247,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00180",
+                            "id": "ug001c0",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -278,7 +279,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00174",
+                                    "id": "ug001b4",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -295,7 +296,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00181",
+                            "id": "ug001c1",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -327,7 +328,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00175",
+                                    "id": "ug001b5",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -344,7 +345,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00182",
+                            "id": "ug001c2",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -376,7 +377,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00176",
+                                    "id": "ug001b6",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -393,7 +394,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00183",
+                            "id": "ug001c3",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -425,7 +426,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00177",
+                                    "id": "ug001b7",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -442,7 +443,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00184",
+                            "id": "ug001c4",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -474,7 +475,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00178",
+                                    "id": "ug001b8",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -491,7 +492,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00185",
+                            "id": "ug001c5",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -523,7 +524,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00179",
+                                    "id": "ug001b9",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -540,7 +541,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00186",
+                            "id": "ug001c6",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -572,7 +573,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug0017a",
+                                    "id": "ug001ba",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -589,7 +590,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00187",
+                            "id": "ug001c7",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -621,7 +622,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug0017b",
+                                    "id": "ug001bb",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -638,7 +639,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00188",
+                            "id": "ug001c8",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -670,7 +671,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug0017c",
+                                    "id": "ug001bc",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {
@@ -687,7 +688,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00189",
+                            "id": "ug001c9",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -719,7 +720,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug0017d",
+                                    "id": "ug001bd",
                                     "elType": "widget",
                                     "widgetType": "image",
                                     "settings": {

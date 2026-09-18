@@ -43,7 +43,7 @@
             "_id": "primary",
             "title": "Primary",
             "typography_typography": "custom",
-            "typography_font_family": "Archivo",
+            "typography_font_family": "Urbanist",
             "typography_font_weight": "800",
             "typography_text_transform": "uppercase",
             "typography_line_height": {
@@ -55,14 +55,14 @@
             "_id": "secondary",
             "title": "Secondary",
             "typography_typography": "custom",
-            "typography_font_family": "Archivo",
+            "typography_font_family": "Urbanist",
             "typography_font_weight": "700"
         },
         {
             "_id": "text",
             "title": "Text",
             "typography_typography": "custom",
-            "typography_font_family": "Inter",
+            "typography_font_family": "Roboto",
             "typography_font_weight": "400",
             "typography_font_size": {
                 "unit": "px",
@@ -77,7 +77,7 @@
             "_id": "accent",
             "title": "Accent",
             "typography_typography": "custom",
-            "typography_font_family": "Inter",
+            "typography_font_family": "Roboto",
             "typography_font_weight": "600"
         }
     ],

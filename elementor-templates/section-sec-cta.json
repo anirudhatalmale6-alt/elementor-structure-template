@@ -4,7 +4,7 @@
     "type": "container",
     "content": [
         {
-            "id": "ug0013f",
+            "id": "ug0017f",
             "elType": "container",
             "settings": {
                 "content_width": "boxed",
@@ -51,7 +51,7 @@
             },
             "elements": [
                 {
-                    "id": "ug0013e",
+                    "id": "ug0017e",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
@@ -76,7 +76,7 @@
                     },
                     "elements": [
                         {
-                            "id": "ug0013b",
+                            "id": "ug0017b",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -106,7 +106,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00139",
+                                    "id": "ug00179",
                                     "elType": "widget",
                                     "widgetType": "heading",
                                     "settings": {
@@ -137,7 +137,7 @@
                                     "elements": []
                                 },
                                 {
-                                    "id": "ug0013a",
+                                    "id": "ug0017a",
                                     "elType": "widget",
                                     "widgetType": "text-editor",
                                     "settings": {
@@ -152,7 +152,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug0013d",
+                            "id": "ug0017d",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -183,7 +183,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug0013c",
+                                    "id": "ug0017c",
                                     "elType": "widget",
                                     "widgetType": "button",
                                     "settings": {

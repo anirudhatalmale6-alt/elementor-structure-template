@@ -4,7 +4,7 @@
     "type": "container",
     "content": [
         {
-            "id": "ug0014a",
+            "id": "ug0018a",
             "elType": "container",
             "settings": {
                 "content_width": "boxed",
@@ -78,7 +78,7 @@
             },
             "elements": [
                 {
-                    "id": "ug00140",
+                    "id": "ug00180",
                     "elType": "widget",
                     "widgetType": "heading",
                     "settings": {
@@ -104,7 +104,7 @@
                     "elements": []
                 },
                 {
-                    "id": "ug00149",
+                    "id": "ug00189",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
@@ -125,11 +125,12 @@
                             "left": "0",
                             "isLinked": false
                         },
-                        "flex_wrap": "wrap"
+                        "flex_wrap": "wrap",
+                        "flex_justify_content": "center"
                     },
                     "elements": [
                         {
-                            "id": "ug00142",
+                            "id": "ug00182",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -159,7 +160,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00141",
+                                    "id": "ug00181",
                                     "elType": "widget",
                                     "widgetType": "counter",
                                     "settings": {
@@ -212,7 +213,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00144",
+                            "id": "ug00184",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -242,7 +243,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00143",
+                                    "id": "ug00183",
                                     "elType": "widget",
                                     "widgetType": "counter",
                                     "settings": {
@@ -295,7 +296,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00146",
+                            "id": "ug00186",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -325,7 +326,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00145",
+                                    "id": "ug00185",
                                     "elType": "widget",
                                     "widgetType": "counter",
                                     "settings": {
@@ -378,7 +379,7 @@
                             "isInner": true
                         },
                         {
-                            "id": "ug00148",
+                            "id": "ug00188",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -408,7 +409,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00147",
+                                    "id": "ug00187",
                                     "elType": "widget",
                                     "widgetType": "counter",
                                     "settings": {

@@ -99,7 +99,8 @@ def stats_band():
               col([counter(56, "Placeholder metric two")], width=S4, width_tablet=S2T),
               col([counter(78, "Placeholder metric three")], width=S4, width_tablet=S2T),
               col([counter(9, "Placeholder metric four")], width=S4, width_tablet=S2T)],
-             gap=30, settings={"flex_wrap": "wrap"})],
+             gap=30, settings={"flex_wrap": "wrap",
+                               "flex_justify_content": "center"})],
         bg="accent", pad=(140, 20, 140, 20),
         settings=merge_globals(
             divider_shape("tilt", "background", "top", 110, flip=True),
@@ -127,8 +128,12 @@ def card(img_slug, title, with_toggles=True):
 
 
 def card_row(slugs, titles, with_toggles=True):
+    # wrap + centre is what makes the row self-arranging: delete a card and the
+    # remainder re-centres instead of leaving a hole on the right. One card sits
+    # centred, four become a full row plus one centred underneath, and so on.
     return row([card(s, t, with_toggles) for s, t in zip(slugs, titles)],
-               gap=36, align_items="flex-start", settings={"flex_wrap": "wrap"})
+               gap=36, align_items="flex-start",
+               settings={"flex_wrap": "wrap", "flex_justify_content": "center"})
 
 
 def split(text_children, media_child, reverse=False, bg=None, pad=(110, 20, 110, 20),
@@ -173,7 +178,8 @@ def three_features(items, bg="accent", with_button=True, title=None, sub=None):
         kids.append(col([text(f"<p>{sub}</p>")], width=S2))
     kids.append(row([col([icon_box(i, t, b)], width=spans(3, 40), width_tablet=S2T)
                      for i, t, b in items],
-                    gap=40, align_items="flex-start", settings={"flex_wrap": "wrap"}))
+                    gap=40, align_items="flex-start",
+                    settings={"flex_wrap": "wrap", "flex_justify_content": "center"}))
     if with_button:
         kids.append(col([button("Learn more", style="dark")], width=100,
                         settings={"flex_align_items": "center"}))
@@ -208,7 +214,7 @@ def partner_grid():
                         "typography_text_transform": "uppercase"}),
          col([text(f"<p>{LOREM_SHORT}</p>")], width=S2),
          row(cells, gap=20, align_items="stretch",
-             settings={"flex_wrap": "wrap"})],
+             settings={"flex_wrap": "wrap", "flex_justify_content": "center"})],
         bg="background", pad=(110, 20, 110, 20))
 
 
@@ -295,7 +301,8 @@ def page_design():
                                      "typography_text_transform": "uppercase"}),
                       text(f"<p>{LOREM_SHORT}</p>")], width=S3, width_tablet=S2T)
                  for i in (1, 2, 3)],
-                gap=36, align_items="flex-start", settings={"flex_wrap": "wrap"}),
+                gap=36, align_items="flex-start",
+                settings={"flex_wrap": "wrap", "flex_justify_content": "center"}),
         ], bg="accent", pad=(140, 20, 140, 20),
             settings=merge_globals(
                 divider_shape("tilt", "background", "top", 110, flip=True),
@@ -327,7 +334,8 @@ def page_design():
 def page_about():
     grid = row([col([image(*M(f"grid-{i}"))], width=spans(3, 14, 540),
                     width_tablet=spans(3, 14, 380)) for i in range(1, 10)],
-               gap=14, align_items="stretch", settings={"flex_wrap": "wrap"})
+               gap=14, align_items="stretch",
+               settings={"flex_wrap": "wrap", "flex_justify_content": "center"})
     return [
         section([row([
             col([heading("About headline in<br>two lines.", tag="h1",
@@ -386,7 +394,8 @@ def page_contact():
                           "+00 00 000 00 00<br>Placeholder contact line")], width=S3, width_tablet=S2T),
             col([icon_box("fas fa-clock", "Opening hours",
                           "Mon &ndash; Fri, 00:00 &ndash; 00:00")], width=S3, width_tablet=S2T),
-        ], gap=40, align_items="flex-start", settings={"flex_wrap": "wrap"})],
+        ], gap=40, align_items="flex-start",
+             settings={"flex_wrap": "wrap", "flex_justify_content": "center"})],
             bg="accent", pad=(120, 20, 120, 20),
             settings=merge_globals(
                 divider_shape("tilt", "background", "top", 110, flip=True),
@@ -409,8 +418,36 @@ def page_simple(title, sub, img_slug=None):
     return kids
 
 
+
+def page_layout_demo():
+    """Shows the self-arranging row with 1, 2, 4 and 5 items.
+
+    Built so the client can see the behaviour rather than take my word for it:
+    the same row settings produce a centred single card, a centred pair, and a
+    full row plus a centred remainder — no empty slots left behind.
+    """
+    slugs = ["card-1", "card-2", "card-3", "card-4", "card-5"]
+    titles = ["Item one", "Item two", "Item three", "Item four", "Item five"]
+
+    out = [intro_band("Flexible layout",
+                      "The same section with different numbers of items. "
+                      "Nothing is configured per case — the row arranges itself.")]
+    for n in (1, 2, 4, 5):
+        out.append(section(
+            [heading(f"{n} item" + ("s" if n > 1 else ""), tag="h2",
+                     extra={"typography_typography": "custom",
+                            "typography_font_size": size(32),
+                            "typography_font_weight": "800",
+                            "typography_text_transform": "uppercase"}),
+             card_row(slugs[:n], titles[:n], with_toggles=False)],
+            bg="background" if n % 2 else "accent",
+            pad=(70, 20, 70, 20)))
+    return out
+
+
 PAGES = {
     "home": ("Home", page_home),
+    "layout-demo": ("Flexible layout demo", page_layout_demo),
     "play": ("Play", page_play),
     "design": ("Design", page_design),
     "about": ("About", page_about),

@@ -41,8 +41,8 @@ def nav_menu():
 def lang_switcher():
     return widget("html", {"html": (
         '<nav class="ug-lang" aria-label="Language">'
-        '<a href="#" class="is-active">EN</a>'
-        '<a href="#">DE</a><a href="#">FR</a><a href="#">IT</a>'
+        '<a href="#" class="is-active">DE</a>'
+        '<a href="#">EN</a>'
         '</nav>')})
 
 

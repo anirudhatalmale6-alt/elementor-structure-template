@@ -26,8 +26,9 @@ $custom_colors = [
 	[ '_id' => 'muted',      'title' => 'Muted text', 'color' => '#6B7280' ],
 ];
 
-$head_font = 'Archivo';
-$body_font = 'Inter';
+// Client-chosen pairing (19-sep-2026): Urbanist for headings, Roboto for body.
+$head_font = 'Urbanist';
+$body_font = 'Roboto';
 
 $system_typography = [
 	[

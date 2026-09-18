@@ -4,7 +4,7 @@
     "type": "container",
     "content": [
         {
-            "id": "ug00138",
+            "id": "ug00178",
             "elType": "container",
             "settings": {
                 "content_width": "boxed",
@@ -84,7 +84,7 @@
             },
             "elements": [
                 {
-                    "id": "ug00137",
+                    "id": "ug00177",
                     "elType": "container",
                     "settings": {
                         "content_width": "full",
@@ -114,7 +114,7 @@
                     },
                     "elements": [
                         {
-                            "id": "ug00132",
+                            "id": "ug00172",
                             "elType": "widget",
                             "widgetType": "heading",
                             "settings": {
@@ -148,7 +148,7 @@
                             "elements": []
                         },
                         {
-                            "id": "ug00133",
+                            "id": "ug00173",
                             "elType": "widget",
                             "widgetType": "text-editor",
                             "settings": {
@@ -170,7 +170,7 @@
                             "elements": []
                         },
                         {
-                            "id": "ug00136",
+                            "id": "ug00176",
                             "elType": "container",
                             "settings": {
                                 "content_width": "full",
@@ -200,7 +200,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "ug00134",
+                                    "id": "ug00174",
                                     "elType": "widget",
                                     "widgetType": "button",
                                     "settings": {
@@ -263,7 +263,7 @@
                                     "elements": []
                                 },
                                 {
-                                    "id": "ug00135",
+                                    "id": "ug00175",
                                     "elType": "widget",
                                     "widgetType": "button",
                                     "settings": {

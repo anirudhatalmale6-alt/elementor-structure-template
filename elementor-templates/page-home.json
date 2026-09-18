@@ -504,7 +504,8 @@
                             "isLinked": false
                         },
                         "flex_align_items": "flex-start",
-                        "flex_wrap": "wrap"
+                        "flex_wrap": "wrap",
+                        "flex_justify_content": "center"
                     },
                     "elements": [
                         {
@@ -1190,7 +1191,8 @@
                             "isLinked": false
                         },
                         "flex_align_items": "flex-start",
-                        "flex_wrap": "wrap"
+                        "flex_wrap": "wrap",
+                        "flex_justify_content": "center"
                     },
                     "elements": [
                         {
@@ -1729,7 +1731,8 @@
                             "left": "0",
                             "isLinked": false
                         },
-                        "flex_wrap": "wrap"
+                        "flex_wrap": "wrap",
+                        "flex_justify_content": "center"
                     },
                     "elements": [
                         {
